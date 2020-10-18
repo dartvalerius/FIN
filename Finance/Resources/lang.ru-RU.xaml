@@ -1,0 +1,22 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:v="clr-namespace:System;assembly=mscorlib">
+
+    <v:String x:Key="MainWindowTitle">Финансовый менеджер</v:String>
+
+    <v:String x:Key="BaseSelectionWindowTitle">Создание подключения</v:String>
+
+    <v:String x:Key="MenuItemFile">Файл</v:String>
+    <v:String x:Key="MenuItemFileConnection">Подключение</v:String>
+    <v:String x:Key="MenuItemFileExit">Выход</v:String>
+
+    <v:String x:Key="MenuItemTables">Таблицы</v:String>
+    <v:String x:Key="MenuItemTablesAccountGroups">Группы счетов</v:String>
+
+    <v:String x:Key="MenuItemTools">Инструменты</v:String>
+    <v:String x:Key="MenuItemTablesSettings">Настройки</v:String>
+
+    <v:String x:Key="MenuItemAbout">О программе</v:String>
+
+</ResourceDictionary>
