@@ -34,6 +34,9 @@ namespace Finance.ViewModels
         {
             var dateTimeNow = DateTime.Now;
 
+            if (!Directory.Exists("Base"))
+                Directory.CreateDirectory("Base");
+
             FilePath =
                 $@"Base/{dateTimeNow.Day}{dateTimeNow.Month}{dateTimeNow.Year}{dateTimeNow.Hour}{dateTimeNow.Minute}{dateTimeNow.Second}.fin";
             File.Copy("template.fin", FilePath);
